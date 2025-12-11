@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Quinten Van Dommelen" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>WPT solo cub</name>
+    <desc>Waypoint collectie voor de solo cub</desc>
+  </metadata>
+
+  <wpt lat="51.26478" lon="4.75438">
+    <name>EBZR</name>
+    <ele>16</ele> #ele (hoogte) is optioneel
+    <desc>Vliegveld</desc>
+  </wpt>
+
+  <wpt lat="51.243639" lon="4.700763">
+    <name>Oprit zoersel</name>
+    <desc>Punt 1</desc>
+  </wpt>
+
+  <wpt lat="51.28576" lon="4.65611">
+    <name>Abdij Westmalle</name>
+    <desc>Punt 2</desc>
+  </wpt>
+
+  <wpt lat="51.326998" lon="4.681665">
+    <name>Sint-Lenaarts</name>
+    <desc>Punt 3</desc>
+  </wpt>
+
+  <wpt lat="51.348467" lon="4.760530">
+    <name>Rijkevorsel</name>
+    <desc>Punt 4</desc>
+  </wpt>
+
+  <wpt lat="51.318577" lon="4.796792">
+    <name>Vliegveld Beerse</name>
+    <desc>Punt 5</desc>
+  </wpt>
+
+  <wpt lat="51.267595" lon="4.867441">
+    <name>Gierle</name>
+    <desc>Punt 6</desc>
+  </wpt>
+
+  <wpt lat="51.242036" lon="4.823333">
+    <name>Lille</name>
+    <desc>Punt 7</desc>
+  </wpt>
+</gpx>
