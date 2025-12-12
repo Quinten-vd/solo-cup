@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
     // titel uit body hallen
     const title = document.body.dataset.title;
-    const titleElement = document.getElementById("page title");
+    const titleElement = document.getElementById("page-title");
     if (title && titleElement) {
       titleElement.textContext = title;
     }
