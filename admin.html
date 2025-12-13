@@ -7,6 +7,13 @@
     <link rel="icon" type="image/png" href="/solo-cup/img/logo.png"/>
   </head>
   <body>
+    <script>
+    // Check of admin ingelogd is
+      if (sessionStorage.getItem("isAdmin") !== "true") {
+      // Niet ingelogd → terug naar loginpagina
+        window.location.href = "/solo-cup/login.html";
+      }
+  </script>
     <div id="header-placeholder"></div>
     
     <div id="footer-placeholder"></div>
