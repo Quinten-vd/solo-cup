@@ -5,7 +5,7 @@ document.getElementById("login-form").addEventListener("submit", function (e) {
   const password = document.getElementById("password").value;
   
   // eenvoudige check
-  if (usernamme ==="admin" && password === "SoloCup2025") {
+  if (username ==="admin" && password === "SoloCup2025") {
     sessionStorage.setItem("isAdmin", "true");
     window.location.href = "/solo-cup/admin.html";
   } else {
