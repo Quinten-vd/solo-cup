@@ -8,13 +8,13 @@ document.addEventListener("DOMContentLoaded", function(){
     const title = document.body.dataset.title;
     const titleElement = document.getElementById("page-title");
     if (title && titleElement) {
-      titleElement.textContext = title;
+      titleElement.textContent = title;
     }
 
     // logo uit body halen
-    const logoSrc = document.body.dataSet.logo;
-    const logoElement = document.getElementById("sile-logo");
-    if (logpSrc && logoElement) {
+    const logoSrc = document.body.dataset.logo;
+    const logoElement = document.getElementById("site-logo");
+    if (logoSrc && logoElement) {
       logoElement.src = logoSrc;
     }
   });
